@@ -12,9 +12,9 @@ module.exports = {
     hardhat: {
       chainId: 31337,
       gas: 12000000,
-      accounts: {
-        mnemonic: mnemonic,
-      },
+      // accounts: {
+      //   mnemonic: mnemonic,
+      // },
     },
 
     mumbai: {

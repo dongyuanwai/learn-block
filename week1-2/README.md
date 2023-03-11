@@ -52,7 +52,7 @@ contract Counter {
 npx hard compile
 ```
 
-有可能会报错
+有可能会报关于 `hardhat-toolbox` 错
 
 这是再安装一下@nomicfoundation/hardhat-toolbox即可
 ```js
