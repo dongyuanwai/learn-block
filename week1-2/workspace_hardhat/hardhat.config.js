@@ -1,11 +1,11 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
+require("hardhat-abi-exporter");
 
-const ALCHEMY_API_KEY = "";
-const GOERLI_PRIVATE_KEY = "";
-const mnemonic = process.env.mnemonic
+const mnemonic ="账户助记词"
 
-/** @type import('hardhat/config').HardhatUserConfig */
+const scankey = "mumbai API_KEY"
+
 module.exports = {
   solidity: "0.8.18",
   networks: {
@@ -26,4 +26,19 @@ module.exports = {
     },
 
   },
+
+  abiExporter: {
+      path: './deployments/abi',
+      clear: true,
+      flat: true,
+      only: [],
+      spacing: 2,
+      pretty: false,
+  },
+
+  etherscan: {
+    apiKey: scankey
+  },
+
+
 };
