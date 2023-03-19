@@ -49,12 +49,12 @@ contract Counter {
 ```
 编译
 ```js
-npx hard compile
+npx hardhat compile
 ```
 
-有可能会报关于 `hardhat-toolbox` 错
+有可能会报关于 `hardhat-toolbox` 的错
 
-这是再安装一下@nomicfoundation/hardhat-toolbox即可
+这时再安装一下@nomicfoundation/hardhat-toolbox即可
 ```js
 npm i --save-dev @nomicfoundation/hardhat-toolbox
 ```
@@ -172,7 +172,7 @@ npm install --save-dev hardhat-abi-exporter
 在hardhat.config.js 配置文件 引入，并配置参数
 
 
-然后执行导出名利
+然后执行导出命令
 ```js
 npx hardhat export-abi
 ```
