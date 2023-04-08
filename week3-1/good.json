@@ -1,0 +1,16 @@
+{
+    "title": "幸运女神",
+    "description": "幸运降临",
+    "image": "ipfs://QmUxdFdZa5obwLxF7rznq12CseZqArHDdHZeSUy2teVLfX",
+    "attributes": [
+        {
+            "trait_type": "代号",
+            "value": "0001"
+        },
+        {
+            "name": "名字",
+            "value": "亦菲"
+        }
+    ],
+    "version": "1"
+}
