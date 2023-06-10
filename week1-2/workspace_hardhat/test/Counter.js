@@ -21,6 +21,9 @@ describe("Counter", function () {
 
     it("count is ok",async function(){
         expect(await counter.counter()).to.equal(0);
+        let tx = await counter.count();
+        await tx.wait();
+        expect (await counter.counter()).to.equal(1);
     })
 
     // 使用另一个账户调用
